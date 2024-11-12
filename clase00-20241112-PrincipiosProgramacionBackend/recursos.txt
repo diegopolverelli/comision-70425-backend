@@ -1,0 +1,34 @@
+https://forms.gle/ajrL7MCkeMfBUfLR6
+
+https://github.com/diegopolverelli/comision-70425-backend
+
+
+https://api-ninjas.com/
+https://reqres.in
+https://swapi.dev/
+
+
+apiKey Ninja: pLq21i0GEvrvyeO3I1OERA==4KqZqwdEQxUDCD7E
+
+
+https://nodejs.org/en
+https://code.visualstudio.com/
+https://www.postman.com/
+https://roadmap.sh/backend?r=backend-beginner
+
+https://es.javascript.info/
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+https://www.w3schools.com/js/default.asp
+
+
+Temas de JavaScript que les sugiero "refrescar" / repasar:
+- métodos de arrays: reduce, map, find, findIndex, forEach, includes
+- desestructuración, principalmente de objetos
+- operador rest
+- operador spread 
+- async/await para resolución de promesas
+- clases: class ,constructor, métodos, etc. Sintaxis básica 
+
+
+Playlist clase (fundamental...!!!):
+https://open.spotify.com/playlist/5GX2x4fbBnJKRO0qsg2Gm8?si=ec273740e52b473e
