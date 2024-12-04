@@ -24,7 +24,8 @@ console.log(resta(15,4))
 let heroe02=new HeroClass("Batman", "Bruce Wayne")
 console.log(heroe02.verIdentidad())
 
-grabaSincrono("./texto01.txt", "Hola...!!!")
+// grabaSincrono("./texto01.txt", "Hola...!!!")
+grabaSincrono("./archivos/texto01.txt", "Hola...!!!")
 let data=leerArchivo("./archivos/texto01.txt", {encoding:"utf-8"})
 console.log(data)
 
