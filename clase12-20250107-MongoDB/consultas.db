@@ -1,0 +1,27 @@
+show dbs
+use comis70425clase12
+db.createCollection("productos")
+show collections
+
+db.usuarios.insertOne({nombre:"Julian", apelliod:"Alvarez"})
+db.usuarios.insertMany(
+    [
+    {id:1, nombre:"Luciana", email:"luciana@test.com", password:"123", rol:"user"},
+    {id:2, nombre:"Juan", email:"juan@test.com", password:"123", rol:"user"},
+    {id:3, nombre:"Romina", email:"romina@test.com", password:"123", rol:"admin"},
+]
+)
+
+db.nombreColl.find()
+db.usuarios.find()
+
+db.usuarios.insertOne({nombre:"Pedro", _id:4})
+db.usuarios.insertOne({nombre:"Pedro", id:4, code:4})
+
+
+
+let usuarios=[
+    {id:1, nombre:"Luciana", email:"luciana@test.com", password:"123", rol:"user"},
+    {id:2, nombre:"Juan", email:"juan@test.com", password:"123", rol:"user"},
+    {id:3, nombre:"Romina", email:"romina@test.com", password:"123", rol:"admin"},
+]
