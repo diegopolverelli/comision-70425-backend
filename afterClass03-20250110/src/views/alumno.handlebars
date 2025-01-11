@@ -1,0 +1,23 @@
+<h2>{{alumno.nombre}} - legajo: <span id="idAlumno">{{alumno.id}}</span></h2>
+
+<h3>Cursos en el que está inscripto:</h3>
+<ul>
+    {{#each alumno.cursando}}
+        <li>id curso: {{id}} - {{nombre}} - reinscripciones: {{reinscripciones}}</li>
+    {{/each}}
+</ul>
+
+<br>
+<hr>
+
+<h3>Cursos disponibles:</h3>
+<ul>
+    {{#each cursos}}
+        <li>
+            {{nombre}} <button onclick="inscribir({{id}})">Inscribirse</button>
+        </li>
+    {{/each}}
+</ul>
+
+
+<script src="/js/alumno.js"></script>

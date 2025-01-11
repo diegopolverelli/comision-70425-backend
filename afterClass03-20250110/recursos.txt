@@ -1,0 +1,174 @@
+https://forms.gle/ajrL7MCkeMfBUfLR6
+
+
+https://github.com/diegopolverelli/comision-70425-backend
+
+
+https://developer.mozilla.org/es/docs/Glossary/Truthy
+
+
+GitHub:
+https://www.youtube.com/watch?v=ZpppQ4ceucU&ab_channel=Coderhouse
+
+
+https://www.npmjs.com/package/dompurify
+
+Clase 11 - Chat con WebSockets - Swal - Deploy en Glitch:
+https://help.glitch.com/hc/en-us/articles/16287495688845-What-version-of-Node-can-I-use-and-how-do-I-change-update-upgrade-it
+
+"engines": { "node": "16.x" }
+
+// "engines": {
+//     "node": "14.x"
+//  },
+
+
+Swal.fire({
+    title:"Identifiquese",
+    input:"text",
+    text:"Ingrese su nickname",
+    inputValidator: (value)=>{
+        return !value && "Debe ingresar un nombre...!!!"
+    },
+    allowOutsideClick:false
+})
+
+Swal.fire({
+    text:`${nombre} se ha conectado...!!!`,
+    toast:true,
+    position:"top-right"
+})
+
+divMensajes.scrollTop=divMensajes.scrollHeight;
+
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
+
+
+https://api-ninjas.com/
+https://reqres.in       |      https://reqres.in/api/users?page=1&per_page=6
+https://swapi.dev/
+
+
+apiKey Ninja: pLq21i0GEvrvyeO3I1OERA==4KqZqwdEQxUDCD7E
+
+
+https://nodejs.org/en
+https://code.visualstudio.com/
+https://www.postman.com/
+https://roadmap.sh/backend?r=backend-beginner
+
+https://es.javascript.info/
+https://developer.mozilla.org/en-US/docs/Learn/JavaScript
+https://www.w3schools.com/js/default.asp
+
+
+Temas de JavaScript que les sugiero "refrescar" / repasar:
+- métodos de arrays: reduce, map, find, findIndex, forEach, includes
+- desestructuración, principalmente de objetos
+- operador rest
+- operador spread 
+- async/await para resolución de promesas
+- clases: class ,constructor, métodos, etc. Sintaxis básica 
+
+codeium
+
+Playlist clase (fundamental...!!!):
+https://open.spotify.com/playlist/5GX2x4fbBnJKRO0qsg2Gm8?si=ec273740e52b473e
+
+Otra lista:
+https://open.spotify.com/playlist/2H11IFaKe4uu67Yzu0O6I9?si=d9bbb41c21c7400e
+
+
+https://github.com/andersontr15/clean-code-javascript-es
+
+
+Expresiones Regulares:
+https://www.youtube.com/watch?v=wfogZfIS03U     Expresiones Regulares 
+
+https://developer.mozilla.org/es/docs/Web/JavaScript/Guide/Regular_expressions/Cheatsheet
+
+Ejemplos de expresiones regulares que sirven para validar emails (ej. para
+correr con JavaScript):
+// Patrón corto
+let reCorto = /\S+@\S+\.\S+/
+// Patrón Medio
+let reMedio = /^(([^<>()\[\]\.,;:\s@\”]+(\.[^<>()\[\]\.,;:\s@\”]+)*)|(\”.+\”))@(([^<>()[\]\.,;:\s@\”]+\.)+[^<>()[\]\.,;:\s@\”]{2,})$/
+// Patrón Largo
+let reLargo = /^(([^<>()\[\]\\.,;:\s@”]+(\.[^<>()\[\]\\.,;:\s@”]+)*)|(“.+”))@((\[[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}\.[0–9]{1,3}])|(([a-zA-Z\-0–9]+\.)+[a-zA-Z]{2,}))$/
+let res=reCorto.test('prueba@correo.com') // true
+console.log(res)
+res=reMedio.test('prueba@correo.com') // true
+console.log(res)
+res=reLargo.test('prueba@correo.com') // true
+console.log(res)
+
+
+let usuarios=[
+    {id:1, nombre:"Luciana", email:"luciana@test.com", password:"123", rol:"user"},
+    {id:2, nombre:"Juan", email:"juan@test.com", password:"123", rol:"user"},
+    {id:3, nombre:"Romina", email:"romina@test.com", password:"123", rol:"admin"},
+]
+
+
+let productos = [
+  { id: 1, code: 'PROD001', title: 'Camiseta Negra', stock: 20, price: 19.99, descrip: 'Camiseta de algodón', status: true },
+  { id: 2, code: 'PROD002', title: 'Pantalón Jeans', stock: 15, price: 39.99, descrip: 'Jeans clásico', status: true },
+  { id: 3, code: 'PROD003', title: 'Camisa Verde manga corta', stock: 12, price: 28.99, descrip: 'Camisa manga corta', status: true },
+  { id: 4, code: 'PROD004', title: 'Pantalón Verde', stock: 32, price: 39.99, descrip: 'Jeans clásico color', status: true },
+  { id: 5, code: 'PROD005', title: 'Camisa Negra manga corta', stock: 20, price: 28.99, descrip: 'Camisa manga corta', status: false },
+  { id: 6, code: 'PROD006', title: 'Pantalón Corto', stock: 14, price: 39.99, descrip: 'Pantalon deportivo corto', status: true },
+  { id: 7, code: 'PROD007', title: 'Camiseta Roja', stock: 20, price: 19.99, descrip: 'Camiseta de algodón', status: true },
+  { id: 8, code: 'PROD008', title: 'Camisa Blanca', stock: 21, price: 32.99, descrip: 'Camisa de vestir', status: true },
+  { id: 9, code: 'PROD009', title: 'Camiseta Celeste', stock: 32, price: 19.99, descrip: 'Camiseta de algodón', status: false },
+  { id: 10, code: 'PROD010', title: 'Camisa Blanca manga corta', stock: 7, price: 28.99, descrip: 'Camisa manga corta', status: true },
+];
+
+
+__dirname / __filename con ECScript (v.20.11.0 Node):
+https://www.sonarsource.com/blog/dirname-node-js-es-modules/
+
+
+let texto1=`La división internacional del trabajo consiste en que unos países se especializan
+en ganar y otros en perder. Nuestra comarca del mundo, que hoy llamamos América Latina, fue
+precoz: se especializó en perder desde los remotos tiempos en que los europeos del Renacimiento
+se abalanzaron a travéz del mar y le hundieron los dientes en la garganta. Pasaron los siglos
+y América Latina perfeccionó sus funciones.
+
+Eduardo Galeano - Capítulo introductorio de "Las venas abiertas de Latinoamérica"`
+
+
+let texto2=`El universo es una perversa inmensidad hecha de ausencia.
+Uno no está en casi ninguna parte.
+Sin embargo, en medio de las infinitas desolaciones hay una buena noticia: el amor.
+Los Hombres Sensibles de Flores tomaban ese rumbo cuando querían explicar el cosmos. 
+Y hasta los Refutadores de Leyendas tuvieron que admitir, casi sin reservas, que el amor
+existe. Eso sí, nadie debe confundir el amor con la dicha. Al contrario: a veces se
+piensa que amor y pena son una misma cosa. Especialmente en el barrio del Ángel Gris,
+que es también el barrio del desencuentro.
+
+Alejandro Dolina - fragmento del libro "Crónicas del Ángel Gris"`
+
+
+let texto3=`
+“Debe trabajar el hombre
+Para ganarse su pan;
+Pues la miseria, en su afán
+De perseguir de mil modos,
+Llama a la puerta de todos
+Y entra en la del haragán”.
+
+“Muchas cosas pierde el hombre
+Que a veces la vuelve a hallar;
+Pero los debo enseñar,
+Y es güeno que lo recuerden:
+Si la vergüenza se pierde,
+Jamás se la vuelve a encontrar”.
+
+José Hernandez - fragmento del Martin Fierro`
+
+
+
+

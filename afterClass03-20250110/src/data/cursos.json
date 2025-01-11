@@ -1,0 +1,20 @@
+[
+     {
+          "id": 1,
+          "nombre": "Matemática Discreta II",
+          "horas": 14,
+          "docente": "Mariana Salaberri"
+     },
+     {
+          "id": 2,
+          "nombre": "Probabilidad y Estadística",
+          "horas": 23,
+          "docente": "Carlos Rossemberg"
+     },
+     {
+          "id": 3,
+          "nombre": "Introducción a la Informática",
+          "horas": 8,
+          "docente": "Matilde Gonzalez"
+     }
+]
