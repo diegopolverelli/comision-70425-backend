@@ -1,0 +1,9 @@
+<h2>Listado de alumnos:</h2>
+
+<ul>
+    {{#each alumnos}}
+        <li>
+            <a href="/alumno/{{_id}}">{{nombre}}</a>
+        </li>
+    {{/each}}
+</ul>
